@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-contact-section-email-contact-shown-in-frontend-src-components-sections-contactsection-tsx-currently-displayed-as-info-goldenneedle-com-to-display-the-business-email-id-exactly-as-thegoldenneedle07",
+      "featureTitle": "Update the Contact section email contact shown in `frontend/src/components/sections/ContactSection.tsx` (currently displayed as \"info@goldenneedle.com\") to display the business email ID exactly as: \"thegoldenneedle07\".",
+      "files": [
+        "frontend/src/components/sections/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete single-page website with header, all sections (hero, services, blouse patterns, process, gallery, contact), and footer.",
+  "frontend/src/components/SiteHeader.tsx": "Sticky header component with logo, brand name, desktop navigation menu including new \"Blouse Patterns\" link, and mobile collapsible menu using Sheet component with smooth scroll behavior.",
+  "frontend/src/components/SiteFooter.tsx": "Footer component with brand information, quick links, social media icons (Instagram now linking to business account, Facebook placeholder), and attribution with caffeine.ai link.",
+  "frontend/src/components/sections/HeroSection.tsx": "Hero section with main headline, description, CTA buttons, and hero banner image with decorative elements.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Services section displaying four tailoring services (blouse, ghagra, dress, one-piece) in a responsive card grid with icons.",
+  "frontend/src/components/sections/ProcessSection.tsx": "Process section showing the four-step tailoring workflow with numbered cards and icons.",
+  "frontend/src/components/sections/GallerySection.tsx": "Gallery section component with category filtering (All, Blouse, Ghagra, Other), incremental loading starting at 12 items with \"Load More\" button, and responsive grid layout maintaining hover effects and card styling.",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section with inquiry form (validation included), contact information cards displaying two clickable phone numbers (8050453168 and 8792063888), email showing \"thegoldenneedle07\", location showing \"Someshwar Complex, near Karnataka Bank, CBT, Hubli 20\", business hours, and local success confirmation.",
+  "frontend/src/components/BrandButton.tsx": "Reusable branded button component that wraps the shadcn Button with consistent golden styling, properly typed using React.ComponentPropsWithoutRef.",
+  "frontend/src/lib/utils.ts": "Utility function for merging Tailwind CSS classes using clsx and tailwind-merge.",
+  "frontend/src/index.css": "Global styles with warm golden color palette using OKLCH color system, supporting both light and dark modes with custom golden theme tokens.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with golden color tokens, custom fonts (Inter and Playfair Display), and consistent design system values.",
+  "frontend/index.html": "HTML entry point with updated meta description, page title, and Google Fonts preconnect links for Inter and Playfair Display.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as the backend has no methods and all functionality is client-side.",
+  "frontend/src/components/sections/BlousePatternsSection.tsx": "New section component displaying six trending blouse patterns in a responsive grid with images, names, and descriptions, featuring hover effects and the golden theme.",
+  "frontend/src/data/galleryItems.ts": "Centralized gallery dataset containing 28 items with categories (Blouse, Ghagra, Dress, One-Piece, Kurti, Saree Blouse, Lehenga, Gown), each with image path, title, alt text, and category for filtering."
+}

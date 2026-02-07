@@ -1,0 +1,47 @@
+{
+  "kind": "build_request",
+  "title": "Update business email ID in Contact section",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-16",
+      "text": "Update the Contact section email contact shown in `frontend/src/components/sections/ContactSection.tsx` (currently displayed as \"info@goldenneedle.com\") to display the business email ID exactly as: \"thegoldenneedle07\".",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Add E mail ID as thegoldenneedle07"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Contact Information card in the Contact section shows the email text exactly as \"thegoldenneedle07\".",
+        "The email is displayed using the existing muted styling consistent with the surrounding contact details (i.e., the same `text-muted-foreground` styling is preserved).",
+        "No other contact fields (phone numbers, location, form fields) are changed."
+      ]
+    }
+  ],
+  "constraints": [
+    "Use English for any user-facing text.",
+    "Do not edit files under `frontend/src/hooks/*` and `frontend/src/components/ui/*` that are listed as immutable paths in system context."
+  ],
+  "nonGoals": [
+    "Adding backend email sending functionality (the contact form remains frontend-only as it is today).",
+    "Creating or guessing an email domain (do not change \"thegoldenneedle07\" into a different address)."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

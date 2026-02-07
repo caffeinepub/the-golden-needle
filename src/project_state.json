@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 15,
+  "summary": "Website for a tailor offering stitching services (blouse, ghagra, dress, one-piece, etc.) named \"The Golden Needle\".",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-marketing-website-for-a-tailor-business-named-the-golden-needle-with-clear-navigation-and-content-focused-on-stitching-services-such-as-blouse-ghagra-dress-and-one-piece-garments",
+      "title": "Create a responsive marketing website for a tailor business named “The Golden Needle”, with clear navigation and content focused on stitching services such as blouse, ghagra, dress, and one-piece garments.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-home-page-layout-with-the-following-sections-hero-headline-short-description-services-list-of-stitching-services-including-blouse-ghagra-dress-one-piece-process-how-it-works-simple-steps-and-a-contact-section-with-a-basic-inquiry-form-name-phone-email-message",
+      "title": "Add a Home page layout with the following sections: hero (headline + short description), Services (list of stitching services including blouse, ghagra, dress, one-piece), Process/How it works (simple steps), and a Contact section with a basic inquiry form (name, phone/email, message).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-gallery-work-page-or-section-that-displays-a-small-set-of-sample-tailoring-images-in-a-clean-grid-with-captions-e-g-blouse-ghagra-dress-one-piece-use-locally-hosted-static-assets-for-the-images",
+      "title": "Add a Gallery/Work page (or section) that displays a small set of sample tailoring images in a clean grid with captions (e.g., “Blouse”, “Ghagra”, “Dress”, “One-piece”). Use locally hosted static assets for the images.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-coherent-distinctive-visual-theme-for-the-golden-needle-and-apply-it-consistently-across-pages-colors-typography-spacing-buttons-cards-do-not-use-a-blue-purple-dominant-palette",
+      "title": "Create a coherent, distinctive visual theme for “The Golden Needle” and apply it consistently across pages (colors, typography, spacing, buttons, cards). Do not use a blue/purple-dominant palette.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-basic-seo-accessibility-setup-set-document-title-to-the-golden-needle-include-a-short-meta-description-ensure-proper-heading-structure-single-h1-per-page-primary-view-and-ensure-keyboard-focus-styles-are-visible",
+      "title": "Add basic SEO/accessibility setup: set document title to “The Golden Needle”, include a short meta description, ensure proper heading structure (single H1 per page/primary view), and ensure keyboard focus styles are visible.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-generated-image-assets-to-the-repository-under-frontend-public-assets-generated-and-render-them-in-the-header-hero-and-gallery-as-appropriate",
+      "title": "Add the generated image assets to the repository under frontend/public/assets/generated and render them in the header/hero and gallery as appropriate.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-new-page-section-titled-trending-blouse-patterns-that-showcases-a-curated-set-of-trending-blouse-pattern-ideas-in-a-clean-responsive-grid-image-pattern-name-1-2-sentence-description-and-uses-an-in-page-anchor-id-e-g-blouse-patterns-for-navigation",
+      "title": "Add a new page section titled \"Trending Blouse Patterns\" that showcases a curated set of trending blouse pattern ideas in a clean responsive grid (image + pattern name + 1–2 sentence description) and uses an in-page anchor id (e.g., \"blouse-patterns\") for navigation.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-site-header-navigation-to-include-a-link-button-that-smoothly-scrolls-to-the-new-trending-blouse-patterns-section",
+      "title": "Update the site header navigation to include a link/button that smoothly scrolls to the new \"Trending Blouse Patterns\" section.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-new-locally-hosted-static-image-assets-for-the-trending-blouse-patterns-under-frontend-public-assets-generated-and-render-them-in-the-new-section-do-not-fetch-images-from-the-backend",
+      "title": "Add new locally hosted static image assets for the trending blouse patterns under frontend/public/assets/generated and render them in the new section (do not fetch images from the backend).",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-only-the-selected-phone-text-element-in-the-contact-section-xpath-html-1-body-1-div-1-div-1-main-1-section-6-div-1-div-2-div-2-div-1-div-2-div-1-div-2-p-1-to-display-the-two-phone-numbers-8050453168-and-8792063888-in-english-and-make-them-click-to-call-links-tel-8050453168-and-tel-8792063888-while-keeping-the-existing-styling-consistent-use-the-same-tailwind-text-muted-foreground-styling",
+      "title": "Update ONLY the selected Phone text element in the Contact section (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[6]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[2]/p[1]) to display the two phone numbers \"8050453168\" and \"8792063888\" in English, and make them click-to-call links (tel:8050453168 and tel:8792063888) while keeping the existing styling consistent (use the same Tailwind text-muted-foreground styling).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-location-address-text-in-frontend-src-components-sections-contactsection-tsx-to-display-the-business-address-in-english-as-someshwar-complex-near-karnataka-bank-cbt-hubli-20-replace-the-current-placeholder-address-lines",
+      "title": "Update the Contact section \"Location\" address text in `frontend/src/components/sections/ContactSection.tsx` to display the business address in English as: \"Someshwar Complex, near Karnataka Bank, CBT, Hubli 20\" (replace the current placeholder address lines).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-frontend-src-components-sections-gallerysection-tsx-to-support-a-large-gallery-collection-intended-to-scale-to-thousands-of-items-by-rendering-gallery-items-from-a-single-easily-extendable-in-code-data-structure-and-displaying-them-with-incremental-loading-e-g-pagination-or-a-load-more-interaction-to-avoid-rendering-the-entire-dataset-at-once",
+      "title": "Update `frontend/src/components/sections/GallerySection.tsx` to support a large gallery collection (intended to scale to thousands of items) by rendering gallery items from a single, easily extendable in-code data structure and displaying them with incremental loading (e.g., pagination or a “Load more” interaction) to avoid rendering the entire dataset at once.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-simple-gallery-filtering-controls-in-frontend-src-components-sections-gallerysection-tsx-so-visitors-can-quickly-browse-categories-such-as-blouse-ghagra-and-other-for-additional-garment-types-filtering-must-work-together-with-the-incremental-loading-behavior",
+      "title": "Add simple gallery filtering controls in `frontend/src/components/sections/GallerySection.tsx` so visitors can quickly browse categories such as “Blouse”, “Ghagra”, and “Other” (for additional garment types). Filtering must work together with the incremental loading behavior.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-substantially-larger-set-of-locally-hosted-gallery-image-assets-under-frontend-public-assets-generated-new-fashion-blouses-ghagra-and-additional-stitched-garments-and-update-the-gallery-dataset-to-use-these-new-images-along-with-meaningful-english-titles-and-alt-text",
+      "title": "Add a substantially larger set of locally hosted gallery image assets under `frontend/public/assets/generated` (new fashion blouses, ghagra, and additional stitched garments) and update the gallery dataset to use these new images along with meaningful English titles and `alt` text.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-website-s-instagram-social-link-in-the-footer-to-point-to-the-business-instagram-account-https-www-instagram-com-the-goolden-needal-igsh-mwxon2ywbhvvzxjnzq-replace-the-current-placeholder-href-in-frontend-src-components-sitefooter-tsx-and-ensure-the-link-opens-in-a-new-tab-with-appropriate-security-attributes",
+      "title": "Update the website’s Instagram social link in the footer to point to the business Instagram account: https://www.instagram.com/the_goolden_needal?igsh=MWxoN2YwbHVvZXJnZQ==. Replace the current placeholder href in `frontend/src/components/SiteFooter.tsx` and ensure the link opens in a new tab with appropriate security attributes.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-email-contact-shown-in-frontend-src-components-sections-contactsection-tsx-currently-displayed-as-info-goldenneedle-com-to-display-the-business-email-id-exactly-as-thegoldenneedle07",
+      "title": "Update the Contact section email contact shown in `frontend/src/components/sections/ContactSection.tsx` (currently displayed as \"info@goldenneedle.com\") to display the business email ID exactly as: \"thegoldenneedle07\".",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a website for a tailor showcasing stitching services (blouse, ghagra, dress, one-piece, etc.) under the name \"The Golden Needle\".",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add a section or content showcasing trending blouse patterns (e.g., examples/design ideas) to the website.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Add/Update the business contact phone numbers on the website Contact section (displayed prominently and click-to-call): 8050453168 and 8792063888.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add the business address to the Contact section: \"Someshwar complex near Karnataka Bank CBT Hubli 20\".",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Expand the Gallery/Work section to include a very large collection (thousands) of new fashion images for blouses, ghagra, and other stitched garments.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add the business Instagram account link to the website: https://www.instagram.com/the_goolden_needal?igsh=MWxoN2YwbHVvZXJnZQ==",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Add the business email ID to the Contact section: \"thegoldenneedle07\" (as an email contact).",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "The Golden Needle",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
